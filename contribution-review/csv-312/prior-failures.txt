@@ -1,0 +1,69 @@
+Historical failed attempts, preceding the successful final build.
+These excerpts retain the relevant fatal diagnostics and terminal results.
+They are not passing receipts. Path substitutions use the same legend as the final log.
+
+Initial focused attempt: parent-POM resolution failed; no tests executed.
+Original full-log SHA256: 5d2e76656e3e76b47ab95f6a722da66913f253a799d9a519a734d9f53d94a706
+Selected original lines: 1-15 of 15
+Only the selected lines below are included; this is not a full log.
+
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[FATAL] Non-resolvable parent POM for org.apache.commons:commons-csv:1.15.0-SNAPSHOT: The following artifacts could not be resolved: org.apache.commons:commons-parent:pom:106 (absent): Could not transfer artifact org.apache.commons:commons-parent:pom:106 from/to central (https://repo.maven.apache.org/maven2): repo.maven.apache.org: Temporary failure in name resolution and 'parent.relativePath' points at wrong local POM @ line 20, column 11
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project org.apache.commons:commons-csv:1.15.0-SNAPSHOT (<CHECKOUT>/pom.xml) has 1 error
+[ERROR]     Non-resolvable parent POM for org.apache.commons:commons-csv:1.15.0-SNAPSHOT: The following artifacts could not be resolved: org.apache.commons:commons-parent:pom:106 (absent): Could not transfer artifact org.apache.commons:commons-parent:pom:106 from/to central (https://repo.maven.apache.org/maven2): repo.maven.apache.org: Temporary failure in name resolution and 'parent.relativePath' points at wrong local POM @ line 20, column 11: Unknown host repo.maven.apache.org: Temporary failure in name resolution -> [Help 2]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/UnresolvableModelException
+
+
+First full default attempt: tests completed, but Javadoc failed.
+Original full-log SHA256: b54e5ef299deb63f9838ceeb42c250731ab1d5e6f890f945b861d5b499cd07bf
+Selected original lines: 472-485 of 485
+Only the selected lines below are included; this is not a full log.
+
+[INFO] --- javadoc:3.12.0:javadoc (default-cli) @ commons-csv ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:12 min
+[INFO] Finished at: 2026-10-21T22:09:16-07:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-javadoc-plugin:3.12.0:javadoc (default-cli) on project commons-csv: An error has occurred in Javadoc report generation: Unable to find javadoc command: The environment variable JAVA_HOME is not correctly set. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+
+
+Next full default attempt: Javadoc completed, but two OperatorWrap violations failed Checkstyle.
+Original full-log SHA256: ee8833cc1d204527598b39d04668190737640494d6a39442829bd691c0a8a5e0
+Selected original lines: 474-490 of 490
+Only the selected lines below are included; this is not a full log.
+
+[INFO] --- checkstyle:3.6.0:check (default-cli) @ commons-csv ---
+[INFO] There are 2 errors reported by Checkstyle 12.3.1 with <CHECKOUT>/src/conf/checkstyle/checkstyle.xml ruleset.
+[ERROR] src/test/java/org/apache/commons/csv/issues/JiraCsv312Test.java:[41,17] (whitespace) OperatorWrap: '+' should be on the previous line.
+[ERROR] src/test/java/org/apache/commons/csv/issues/JiraCsv312Test.java:[42,17] (whitespace) OperatorWrap: '+' should be on the previous line.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  38.749 s
+[INFO] Finished at: 2026-10-21T22:12:44-07:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-checkstyle-plugin:3.6.0:check (default-cli) on project commons-csv: You have 2 Checkstyle violations. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

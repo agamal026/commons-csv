@@ -1,0 +1,397 @@
+{
+  "schema_version": 1,
+  "origin": "Parsed from archived Surefire XML; this packet preparation executed no tests.",
+  "method": "Suite reported counts were checked against testcase child outcomes. Passed = tests - failures - errors - skipped. No XML properties or system output are exported.",
+  "baseline_commit": "b217f58fac4bdf26507cde121ffb9cd50fd335e7",
+  "test_source_sha256": "3886666340f8965035535ff7fe2067d7d1e82c747b7474951baf7087213e7e05",
+  "full_run": {
+    "suite_count": 39,
+    "totals": {
+      "tests": 989,
+      "passed": 978,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 11
+    },
+    "suites": [
+      {
+        "suite": "org.apache.commons.csv.CSVDuplicateHeaderTest",
+        "original_xml_sha256": "fed0f5ad7dbfde7a813fc10ad6d381fa8306e852e6395b78e76619c23c630177",
+        "tests": 348,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 348
+      },
+      {
+        "suite": "org.apache.commons.csv.CSVFileParserTest",
+        "original_xml_sha256": "70c8084f8cac27628dd769d5af60be8e9a95177d13f80d215df2025316ee286b",
+        "tests": 14,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 14
+      },
+      {
+        "suite": "org.apache.commons.csv.CSVFormatPredefinedTest",
+        "original_xml_sha256": "da50c42f4cecccece77442ca08a5fbf260cf9d3816b851c3042d73fa276592a8",
+        "tests": 10,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 10
+      },
+      {
+        "suite": "org.apache.commons.csv.CSVFormatTest",
+        "original_xml_sha256": "e7ae2d41c5642420592b8ee5f8c391bedcdeaca75d3023a025218afb7fcbbe91",
+        "tests": 115,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 115
+      },
+      {
+        "suite": "org.apache.commons.csv.CSVParserTest",
+        "original_xml_sha256": "44331cbf8df9a014e9a564f143057f7df12fd9879c2bac25076de698f2f386f4",
+        "tests": 175,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 4,
+        "passed": 171
+      },
+      {
+        "suite": "org.apache.commons.csv.CSVPrinterTest",
+        "original_xml_sha256": "a73ed214b7f71dc136023da0091a811514fba9e1d7b70c9b364492af8bc0a247",
+        "tests": 168,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 7,
+        "passed": 161
+      },
+      {
+        "suite": "org.apache.commons.csv.CSVRecordTest",
+        "original_xml_sha256": "92652c3aa3d6f116a30c7ea1e00341e6d4766487f48604ca72862a727c4239c4",
+        "tests": 33,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 33
+      },
+      {
+        "suite": "org.apache.commons.csv.ExtendedBufferedReaderTest",
+        "original_xml_sha256": "abf08fa8a1d01bab8df0e199f94b122c8fc4229147dbba6a0d88112b67463c7f",
+        "tests": 10,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 10
+      },
+      {
+        "suite": "org.apache.commons.csv.JiraCsv196Test",
+        "original_xml_sha256": "c55d011ca9eda7dc307f126a911e36ca14fe293595cca7cad39aca7055708d87",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 2
+      },
+      {
+        "suite": "org.apache.commons.csv.JiraCsv318Test",
+        "original_xml_sha256": "7b9a33f49d8784169b2deceeeb3d3640dfcaa0ba29669fb3414b1b7ab5ede210",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 5
+      },
+      {
+        "suite": "org.apache.commons.csv.LexerTest",
+        "original_xml_sha256": "08e734c6231de17ca937eecd4221bc037880c48f0c9617a316d59b05ef2a6076",
+        "tests": 37,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 37
+      },
+      {
+        "suite": "org.apache.commons.csv.TokenTest",
+        "original_xml_sha256": "2a77ddc132d56311cbfdf492ea64d8aa80f236fe8f171f2e88fc9a7b290d06d5",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 5
+      },
+      {
+        "suite": "org.apache.commons.csv.UserGuideTest",
+        "original_xml_sha256": "a06bb7dd4e945017d21fcdd310ede0ed13445b6200aa9f43d659cd7c36971855",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 2
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv148Test",
+        "original_xml_sha256": "1e32033b9b92ff22d8f22cfd12b407a9b41d25850cb9e9835577fcf67999fa5e",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 2
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv149Test",
+        "original_xml_sha256": "fd1cd3da9b8b0658b0da9d7c1f39d56365b1f5d3b9c169752e666b44fb0acb15",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 2
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv150Test",
+        "original_xml_sha256": "5b189a611a89a086d33ad016bfe9ca35b084d7b1aa950feac566fb3a5803e655",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 3
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv154Test",
+        "original_xml_sha256": "28f63d6fb859397ee62819bec71f4305cf96af1a9279caf9971259d5f18485bb",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 2
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv167Test",
+        "original_xml_sha256": "8ce9f828182df3d284b688ca0c34583e729e936ae2690fc56938c6f6e92d1588",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 1
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv198Test",
+        "original_xml_sha256": "d74a904d11139c47eba9a02c42413499929067cadd770cae557152af6007afcf",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 1
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv203Test",
+        "original_xml_sha256": "d52f663456495f5ef6549c370fb753b2fe5f4de99594b92b49b51442e00ea2be",
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 7
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv206Test",
+        "original_xml_sha256": "4ca4718c68f5a228cff029f8424bd8c7e7f1f46a235e0ec121a28c77e273b9fc",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 1
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv211Test",
+        "original_xml_sha256": "cddab844777d0fa7118f0108f29d7de883ac78f85d5e183a7153b226fef6cea9",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 1
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv213Test",
+        "original_xml_sha256": "a1feb3638fecd1009a8286ed6e7ce0f47e4e98c1db843e5316fae4dd2bdbe750",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 1
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv227Test",
+        "original_xml_sha256": "f75316a4d47ebc542d76c8b8713bb2b13b98b7502d093ea50af588720fd9c255",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 1
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv247Test",
+        "original_xml_sha256": "149bc5fbbee56c1bc64671c0f30221e462dede6b7ba76c8c433aed8252ceaecc",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 2
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv248Test",
+        "original_xml_sha256": "2b87206c10446ace05553460c98d67504eaad2f3ebc3095938aabd5e5fc3fa72",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 1
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv249Test",
+        "original_xml_sha256": "f23c5d003c6efd1975b300f30fabdc3ea0ee222b2da7c3e715c722a8d7536d0c",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 1
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv253Test",
+        "original_xml_sha256": "dba3b1e59e7f679e2bd0a3a2d9385f7dcc93210335132fd5a2f04db1793058cd",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 1
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv254Test",
+        "original_xml_sha256": "fef92452cc2661107391319dea0aeb9b9b543dd7c581dae043457ef303637b14",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 1
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv257Test",
+        "original_xml_sha256": "814f3b3de3819c6ab3eec73f24d3df5386f3acb1430700ef2fe1198db0009af1",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 3
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv263Test",
+        "original_xml_sha256": "d5ddb43a051e90c722e81b93653556a7cb2081a0cfa3a7d7ad1d26e5014c71c2",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 1
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv264Test",
+        "original_xml_sha256": "77bffc6f2347722a7a46950163920611e5c0eb3055572bbd1f5ac572a661af92",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 3
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv265Test",
+        "original_xml_sha256": "c83612bfaf4ff3129ab4e8d8b261d6b675027949655bfbb87bf7634738c498d7",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 2
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv271Test",
+        "original_xml_sha256": "83ad84c0ed05a4bdae6afd0032c038ec136347713e9517214ac9a95b1761890f",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 2
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv288Test",
+        "original_xml_sha256": "fe6e8e3acef9d6063df2abab50bc70fcff6ff8ca48a0268b26faecb964d31b4c",
+        "tests": 12,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 12
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv290Test",
+        "original_xml_sha256": "72c03e37edf3709a00325f46b599a3f06e35d5952628610dd1c45f6ec7c9db21",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 3
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv294Test",
+        "original_xml_sha256": "5ddb06e48ded1261fcc8da243196ff42ad2ec706edf415e033d3510747b90702",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 4
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv312Test",
+        "original_xml_sha256": "22e6f40e68c67771f5eddbe0b18027c74be65bb7d9066274b1c0a0b1e20a38e5",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 4
+      },
+      {
+        "suite": "org.apache.commons.csv.issues.JiraCsv93Test",
+        "original_xml_sha256": "ba221c880fbee17b6882d49669bb4128d316f420851057c7e6e455f75edd7f3e",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "passed": 3
+      }
+    ]
+  },
+  "focused_run": {
+    "suite": "org.apache.commons.csv.issues.JiraCsv312Test",
+    "original_xml_sha256": "43bd7266e9bf03958c34a9955a2d39baff63bdcdb736e872f56aed565fbf26ff",
+    "tests": 4,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 4,
+    "cases": [
+      {
+        "name": "testWithoutHeaderConfiguration(String)[1]",
+        "outcome": "passed"
+      },
+      {
+        "name": "testWithoutHeaderConfiguration(String)[2]",
+        "outcome": "passed"
+      },
+      {
+        "name": "testAutomaticHeader(String)[1]",
+        "outcome": "passed"
+      },
+      {
+        "name": "testAutomaticHeader(String)[2]",
+        "outcome": "passed"
+      }
+    ]
+  }
+}

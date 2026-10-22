@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "operation": "Literal path-prefix replacement, in listed rule order; no final-log lines removed or reordered.",
+  "rules": [
+    {
+      "id": "R1",
+      "category": "temporary source checkout prefix",
+      "replacement": "<CHECKOUT>",
+      "removed_literal_sha256": "04d64f42ab2cf97af4f2bf9133d01d2ff303d31139f200611a90801b6b1776f2"
+    },
+    {
+      "id": "R2",
+      "category": "temporary Maven dependency-cache prefix",
+      "replacement": "<MAVEN_REPOSITORY>",
+      "removed_literal_sha256": "a997a1cf77c9b9dd363e900739dae2f27fee78ce4c54f66a355e7ca11e7477b5"
+    },
+    {
+      "id": "R3",
+      "category": "installed JDK directory prefix",
+      "replacement": "<JAVA_HOME>",
+      "removed_literal_sha256": "fbe1698414fa8c46b3751f8cacce4df2bbca312a7dd7e1a1e46dab8d7cea2dfe"
+    }
+  ],
+  "final_log": {
+    "published_file": "default-build.log",
+    "original_sha256": "3b731c0af9fe57f2a264945b3d16e593a76744c82397a82a2640a1ba65a96eb2",
+    "sanitized_sha256": "35e75ca5d8bacb0b4fd693f235247b474d18e221880d80a2fbdba02b6b82335c",
+    "original_bytes": 36669,
+    "sanitized_bytes": 36332,
+    "original_line_count": 481,
+    "sanitized_line_count": 481,
+    "redactions": [
+      {
+        "rule": "R1",
+        "count": 27,
+        "source_lines": [
+          {
+            "line": 9,
+            "count": 1
+          },
+          {
+            "line": 27,
+            "count": 1
+          },
+          {
+            "line": 34,
+            "count": 1
+          },
+          {
+            "line": 43,
+            "count": 1
+          },
+          {
+            "line": 52,
+            "count": 1
+          },
+          {
+            "line": 53,
+            "count": 1
+          },
+          {
+            "line": 56,
+            "count": 1
+          },
+          {
+            "line": 149,
+            "count": 1
+          },
+          {
+            "line": 152,
+            "count": 1
+          },
+          {
+            "line": 155,
+            "count": 1
+          },
+          {
+            "line": 158,
+            "count": 1
+          },
+          {
+            "line": 163,
+            "count": 1
+          },
+          {
+            "line": 165,
+            "count": 1
+          },
+          {
+            "line": 172,
+            "count": 1
+          },
+          {
+            "line": 360,
+            "count": 2
+          },
+          {
+            "line": 361,
+            "count": 1
+          },
+          {
+            "line": 362,
+            "count": 1
+          },
+          {
+            "line": 370,
+            "count": 1
+          },
+          {
+            "line": 378,
+            "count": 1
+          },
+          {
+            "line": 379,
+            "count": 1
+          },
+          {
+            "line": 380,
+            "count": 1
+          },
+          {
+            "line": 381,
+            "count": 1
+          },
+          {
+            "line": 401,
+            "count": 1
+          },
+          {
+            "line": 409,
+            "count": 1
+          },
+          {
+            "line": 417,
+            "count": 1
+          },
+          {
+            "line": 425,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "rule": "R2",
+        "count": 2,
+        "source_lines": [
+          {
+            "line": 56,
+            "count": 1
+          },
+          {
+            "line": 360,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "rule": "R3",
+        "count": 1,
+        "source_lines": [
+          {
+            "line": 433,
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "retention": "Complete final log, including all warnings, error-labelled SPDX diagnostics, stack traces, skips, gate results and timestamps."
+  },
+  "historical_failure_excerpts": [
+    {
+      "label": "Initial focused attempt: parent-POM resolution failed; no tests executed.",
+      "original_full_log_sha256": "5d2e76656e3e76b47ab95f6a722da66913f253a799d9a519a734d9f53d94a706",
+      "original_full_log_bytes": 1731,
+      "original_full_log_lines": 15,
+      "selected_line_range": [
+        1,
+        15
+      ],
+      "sanitized_excerpt_sha256": "2a973829000e81a1eb8b64282eb2205f9b3a6f0db1d2d9e5852103650855c01e",
+      "redactions": [
+        {
+          "rule": "R1",
+          "count": 1,
+          "source_lines": [
+            {
+              "line": 7,
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "First full default attempt: tests completed, but Javadoc failed.",
+      "original_full_log_sha256": "b54e5ef299deb63f9838ceeb42c250731ab1d5e6f890f945b861d5b499cd07bf",
+      "original_full_log_bytes": 37210,
+      "original_full_log_lines": 485,
+      "selected_line_range": [
+        472,
+        485
+      ],
+      "sanitized_excerpt_sha256": "2b9a1184420892a679f701ce0fbbd869dac9d908fd1002cd02a50174f2d333f9",
+      "redactions": []
+    },
+    {
+      "label": "Next full default attempt: Javadoc completed, but two OperatorWrap violations failed Checkstyle.",
+      "original_full_log_sha256": "ee8833cc1d204527598b39d04668190737640494d6a39442829bd691c0a8a5e0",
+      "original_full_log_bytes": 37576,
+      "original_full_log_lines": 490,
+      "selected_line_range": [
+        474,
+        490
+      ],
+      "sanitized_excerpt_sha256": "8d35d308552acc1ec64fa929f763d62a44b7baed067720fbeb0c22284779e365",
+      "redactions": [
+        {
+          "rule": "R1",
+          "count": 1,
+          "source_lines": [
+            {
+              "line": 475,
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "unchanged_receipts": [
+    {
+      "published_file": "final-summary.json",
+      "sha256": "6cae3ef3d42899e4550f467a4ec659e315760e5f93e390d63eda99b7eefed295"
+    },
+    {
+      "published_file": "focused-test.txt",
+      "sha256": "3672c46f8b04df9e0a3862f7d917c152bdbc090a2ced69110fd2a89133e343c5"
+    }
+  ],
+  "omitted_data": "Original Surefire system properties, classpaths, private settings, and full earlier build logs are not exported. Historical failure excerpts are explicitly identified above."
+}

@@ -1,0 +1,69 @@
+{
+  "base": "b217f58fac4bdf26507cde121ffb9cd50fd335e7",
+  "file": "src/test/java/org/apache/commons/csv/issues/JiraCsv312Test.java",
+  "sha256": "3886666340f8965035535ff7fe2067d7d1e82c747b7474951baf7087213e7e05",
+  "suites": 39,
+  "counts": {
+    "tests": 989,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 11
+  },
+  "skipped_cases": [
+    {
+      "class": "org.apache.commons.csv.CSVPrinterTest",
+      "name": "testRandomMongoDbCsv",
+      "reason": "void org.apache.commons.csv.CSVPrinterTest.testRandomMongoDbCsv() throws java.lang.Exception is @Disabled"
+    },
+    {
+      "class": "org.apache.commons.csv.CSVPrinterTest",
+      "name": "testJira135_part2",
+      "reason": "void org.apache.commons.csv.CSVPrinterTest.testJira135_part2() throws java.io.IOException is @Disabled"
+    },
+    {
+      "class": "org.apache.commons.csv.CSVPrinterTest",
+      "name": "testPostgreSqlCsvTextOutput",
+      "reason": "void org.apache.commons.csv.CSVPrinterTest.testPostgreSqlCsvTextOutput() throws java.io.IOException is @Disabled"
+    },
+    {
+      "class": "org.apache.commons.csv.CSVPrinterTest",
+      "name": "testPostgreSqlCsvNullOutput",
+      "reason": "void org.apache.commons.csv.CSVPrinterTest.testPostgreSqlCsvNullOutput() throws java.io.IOException is @Disabled"
+    },
+    {
+      "class": "org.apache.commons.csv.CSVPrinterTest",
+      "name": "testRandomOracle",
+      "reason": "void org.apache.commons.csv.CSVPrinterTest.testRandomOracle() throws java.lang.Exception is @Disabled"
+    },
+    {
+      "class": "org.apache.commons.csv.CSVPrinterTest",
+      "name": "testRandomPostgreSqlCsv",
+      "reason": "void org.apache.commons.csv.CSVPrinterTest.testRandomPostgreSqlCsv() throws java.lang.Exception is @Disabled"
+    },
+    {
+      "class": "org.apache.commons.csv.CSVPrinterTest",
+      "name": "testJira135All",
+      "reason": "void org.apache.commons.csv.CSVPrinterTest.testJira135All() throws java.io.IOException is @Disabled"
+    },
+    {
+      "class": "org.apache.commons.csv.CSVParserTest",
+      "name": "testBackslashEscapingOld",
+      "reason": "void org.apache.commons.csv.CSVParserTest.testBackslashEscapingOld() throws java.io.IOException is @Disabled"
+    },
+    {
+      "class": "org.apache.commons.csv.CSVParserTest",
+      "name": "testStartWithEmptyLinesThenHeaders",
+      "reason": "void org.apache.commons.csv.CSVParserTest.testStartWithEmptyLinesThenHeaders() throws java.lang.Exception is @Disabled"
+    },
+    {
+      "class": "org.apache.commons.csv.CSVParserTest",
+      "name": "testBOM",
+      "reason": "CSV-107"
+    },
+    {
+      "class": "org.apache.commons.csv.CSVParserTest",
+      "name": "testMongoDbCsv",
+      "reason": "void org.apache.commons.csv.CSVParserTest.testMongoDbCsv() throws java.lang.Exception is @Disabled"
+    }
+  ]
+}
